@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquiery.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <div class="logo">Logo</div>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">Contact</a>
+                <a href="#">Services</a>
+                <a href="#">Connect</a>
+                <button class="Sign-up" onclick=formVisible()>Sign up</button>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            
+        </nav>
+        <div class="container">
+            <div class="content">
+                <h1>Learn from the <span>coolest</span> coding platform  of India</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatibus.Lorem ipsum dolor sit amet consectetur adipisicing elit.ipsum dolor sit amet consectetur Quisquam, voluptatibus.</p>
+                <button>Explore Now</button>
+            </div>
+            <div class="image">
+                <img src="./right-side-img.jpg" alt="right side image">
+            </div>
+        </div>
+        <div class="form-container">
+            <a href="" onclick=formHide()><i class="fa-regular fa-circle-xmark"></i></a>
+            
+            <form>
+                    <h2>Sign up</h2>
+                    <input type="text" placeholder="Enter your name" required>
+                    <input type="email" placeholder="Enter your Email" required>
+                    <input type="Password" placeholder="Enter your Password" required>
+                    <button type="submit" onclick=formHide()>Submit</button>
+                    <p>Already have an Account? <a href="#">Login</a></p>            
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
