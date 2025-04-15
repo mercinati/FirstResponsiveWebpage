@@ -1,0 +1,81 @@
+@media (max-width:600px) {
+    nav {
+        font-size: 7vw;
+    }
+    .nav-links a {
+        display: none;
+    }
+    .nav-links i {
+        display: initial;
+        font-size: 6vw;
+    }
+
+   .container {
+    flex-direction: column;
+    height: auto;
+    font-size: 4vw;
+    padding: 0;
+   }
+
+   .content {
+        width: 100%;
+        padding: 8.5%;
+        margin: 0;
+    }
+   .content h1 {
+        font-size: 10vw;
+        margin-bottom: 10px;
+   }
+   .content p {
+        font-size: 0.8em;
+   }
+   .content button {
+        font-size: 1em;
+        font-weight: 800;
+        margin-top: 7%;
+        
+   }
+
+   .image {
+    width: 100%;
+    height: 37vh;
+    padding: 0 30px;
+   }
+
+   /* ----------------SIGN-UP-FORM------------------ */
+
+   .form-container i {
+    top: 7%;
+    font-size: 4vh;
+   }
+   .form-container form {
+    height: 60%;
+    width: 80%;
+    padding:2vh;
+   }
+   .form-container form h2 {
+    font-size: 10vw;
+    margin: 2vh;
+   }
+   .form-container form input {
+    height: 7vh;
+    width: 100%;
+    border-radius: 7px;
+    text-align: left;
+   }
+   .form-container form input::placeholder {
+    padding: 2vh;
+    font-size: 4vw;
+    }
+    .form-container form button {
+        height: 6vh;
+        width: 100%;
+        font-size: 3vh;
+    }
+    .form-container form p {
+        font-size: 2vh;
+        margin-top:2.5vh;
+    }
+
+}
+
